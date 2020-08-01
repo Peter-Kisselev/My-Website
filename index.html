@@ -6,37 +6,10 @@
     <title>Predators</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
-
-<body onload ="initgame()">
-
-<canvas id="CANVAS" height="600px" width="600px"> </canvas>
-<div>________________________________________________________________________________________________________________________________________________________________________________________________</div>
-<button id="Button2" onclick= "step()" > Step </button>
-<button id="Button3" onclick="steprepeat()"> Start Animation </button>
-<button id="Button4" onclick="set_primary_soup()"> Randomize Prey and Predators </button>
-<button id="Button5" onclick="cleared()"> Clear All </button>
-<table cellspacing="10">
-  <tr>
-    <td>
-      <div id="div"> Speed of Animation in tenths of seconds </div>
-      <input type="text" id="animation_speed" name="animation_speed" onchange="setspeed()">
-    </td>
-    <td>
-      <div id="div2"> Cell Selection Menu</div>
-        <div>
-            <select id = "select_paint" onchange="setCurrentColor()">
-                <option value="standard"> </option>
-                <option value="prey">Prey</option>
-                <option value="predator">Predator</option>
-            </select>
-        </div>
-    </td>
-    <td>
-      <div id="watermark"> By: Peter Kisselev </div>
-    </td>
-  </tr>
-</table>
-</body>
-<script type="text/javascript" src="code.js"></script>
+  
+<b>Conway's Game of Life</b>  
+<br>
+by Peter Kisselev
+  
+  <a href="predator.html" target="_blank">PLAY THE GAME</a>
 </html>
