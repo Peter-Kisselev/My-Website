@@ -1,0 +1,53 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#Title {
+    font-weight: bolder;
+}
+#CANVAS {
+    background-color: white;
+}
+
+#Button2 {
+    width: 75px;
+    height: 25px;
+    background: antiquewhite;
+    font-weight: bolder;
+}
+#Button3 {
+    width: 150px;
+    height: 25px;
+    background: antiquewhite;
+    font-weight: bolder;
+}
+
+#Button4 {
+    width: 300px;
+    height: 25px;
+    background: antiquewhite;
+    font-weight: bolder;
+}
+
+#Button5 {
+    width: 150px;
+    height: 25px;
+    background: antiquewhite;
+    font-weight: bolder;
+}
+
+
+#div {
+    width: 300px;
+    height: 25px;
+    background: antiquewhite;
+    font-weight: bolder;
+}
+
+#div2 {
+    width: 150px;
+    height: 25px;
+    background: antiquewhite;
+    font-weight: bolder;
+}
