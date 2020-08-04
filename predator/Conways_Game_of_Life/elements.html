@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Game of Life</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body onload="initgame()">
+    <canvas id="CANVAS" height="600px" width="600px"> </canvas>
+    <div>________________________________________________</div>
+    <button id="Button2" onclick="step()">Step</button>
+    <button id="Button3" onclick="steprepeat()">Start Animation</button>
+    <button id="Button4" onclick="set_primary_soup()">Randomize Cells</button>
+    <div>Speed of Animation in tenths of seconds</div>
+    <input
+      type="text"
+      id="animation_speed"
+      name="animation_speed"
+      onchange="setspeed()"
+    />
+  </body>
+  <script type="text/javascript" src="code.js"></script>
+</html>

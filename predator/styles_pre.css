@@ -1,0 +1,14 @@
+#Text {
+  width: 600px;
+}
+
+#text_box {
+  background-color: rgb(238, 226, 161);
+  border-radius: 25px;
+  padding: 20px;
+  max-width: fit-content;
+}
+
+#bg {
+  background-color: burlywood;
+}

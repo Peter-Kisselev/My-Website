@@ -1,0 +1,35 @@
+#tietle {
+  background-color: rgb(184, 255, 184);
+  border-radius: 25px;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 40px;
+  width: 1000px;
+  text-align: center;
+}
+
+#tieitle {
+  display: flex;
+  justify-content: center;
+}
+
+#plink {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+#list {
+    justify-content: center;
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 750px;
+    border-radius: 20px;
+}
+
+#Al_li {
+    display: flex;
+    justify-content: center;
+}
